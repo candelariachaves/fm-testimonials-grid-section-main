@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+}
+
+.container {
+    display: grid;
+    grid-template: auto auto / repeat(4, auto);
+    grid-gap: 30px;
+    grid-template-areas: "daniel daniel jonathan kira" "jeanette patrick patrick kira";
+    padding: 100px;
+    background-color: hsl(210, 46%, 95%);
+}
+
+#daniel {
+    grid-area: daniel;
+    background-color: hsl(263, 55%, 52%);
+}
+
+#jonathan {
+    grid-area: jonathan;
+    background-color: hsl(217, 19%, 35%);
+}
+
+#kira {
+    grid-area: kira;
+    background-color: hsl(0, 0%, 100%);
+}
+
+#jeanette {
+    grid-area: jeanette;
+    background-color: hsl(0, 0%, 100%);
+}
+
+#patrick {
+    grid-area: patrick;
+    background-color: hsl(219, 29%, 14%);
+}
+
+article {
+    border-radius: 1em;
+    padding: 3em;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    height: 56px;
+    width: 56px;
+
+}
+
+
+article .name, article p {
+    color: hsl(0, 0%, 81%);
+    font-weight: 500;
+}
+article .name p {
+    opacity: 50%;
+}
+
+article p {
+    opacity: 70%;
+    line-height: 1.5em;
+}
+
+
+article h2 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+
+header {
+    display: flex;
+}
+
+#kira .name, #kira p, #kira h2, #jeanette .name, #jeanette p, #jeanette h2 {
+    color: hsl(217, 19%, 35%);
+}
+
+
+article .name h1, .article .name p{
+    padding: 0;
+    margin:0;
+}
+
+
+
+
+.attribution {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 11px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color:hsl(229, 23%, 23%);
+}
+
+.attribution a:link, .attribution a:visited, .attribution a:active {
+    color: blue;
+}
+
+.attribution a:hover {
+    color: darkblue;
+}
+
+
+@media (max-width: 500px) {
+    .attribution {
+        position: absolute;
+        writing-mode: horizontal-tb;
+        transform: none;
+        width: 100%;
+        right: initial;
+        text-align: center;
+    }
+}

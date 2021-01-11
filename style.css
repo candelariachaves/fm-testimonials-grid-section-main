@@ -1,6 +1,4 @@
 body {
-    margin: 0;
-    padding: 0;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 13px;
 }
@@ -8,9 +6,9 @@ body {
 .container {
     display: grid;
     grid-template: auto auto / repeat(4, auto);
-    grid-gap: 30px;
     grid-template-areas: "daniel daniel jonathan kira" "jeanette patrick patrick kira";
-    padding: 100px;
+    grid-gap: 25px;
+    padding: 10%;
     background-color: hsl(210, 46%, 95%);
 }
 
@@ -18,73 +16,66 @@ body {
     grid-area: daniel;
     background-color: hsl(263, 55%, 52%);
 }
-
 #jonathan {
     grid-area: jonathan;
     background-color: hsl(217, 19%, 35%);
 }
-
 #kira {
     grid-area: kira;
     background-color: hsl(0, 0%, 100%);
 }
-
 #jeanette {
     grid-area: jeanette;
     background-color: hsl(0, 0%, 100%);
 }
-
 #patrick {
     grid-area: patrick;
     background-color: hsl(219, 29%, 14%);
 }
 
-article {
+.testimony {
     border-radius: 1em;
-    padding: 3em;
-}
-
-.profile-pic {
-    border-radius: 50%;
-    height: 56px;
-    width: 56px;
-
-}
-
-
-article .name, article p {
+    padding: 2em;
     color: hsl(0, 0%, 81%);
     font-weight: 500;
-}
-article .name p {
-    opacity: 50%;
-}
-
-article p {
-    opacity: 70%;
     line-height: 1.5em;
 }
-
-
-article h2 {
-    color: hsl(0, 0%, 100%);
-    font-weight: 600;
-}
-
 
 header {
     display: flex;
 }
 
-#kira .name, #kira p, #kira h2, #jeanette .name, #jeanette p, #jeanette h2 {
+.profile-pic {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+
+.name h1 {
+    font-weight: 600;
+}
+
+.name p {
+    opacity: 50%;
+}
+
+.content h2 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.content p {
+    opacity: 70%;
+}
+
+#kira, #jeanette {
     color: hsl(217, 19%, 35%);
 }
 
 
-article .name h1, .article .name p{
-    padding: 0;
-    margin:0;
-}
+
+
+
 
 
 
@@ -96,7 +87,7 @@ article .name h1, .article .name p{
     font-size: 11px;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    color:hsl(229, 23%, 23%);
+    color:hsl(219, 29%, 14%);
 }
 
 .attribution a:link, .attribution a:visited, .attribution a:active {
@@ -106,7 +97,6 @@ article .name h1, .article .name p{
 .attribution a:hover {
     color: darkblue;
 }
-
 
 @media (max-width: 500px) {
     .attribution {

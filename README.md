@@ -4,15 +4,12 @@
 ...
 
 ## Design preview
-> Desktop preview
 
-![Desktop preview](./design/desktop-preview.jpg)
-
-> Desktop design
+> Desktop
 
 ![Desktop design](./design/desktop-design.jpg)
 
-> Mobile design
+> Mobile
 
 ![Mobile design](./design/mobile-design.jpg)
 
@@ -20,7 +17,7 @@
 
 My challenge is to build out this testimonials grid section and get it looking as close to the design as possible.
 
-The designs are in JPG static format. This means that I'll need to use my best judgment for styles such as  `font-size`,  `padding`  and  `margin`. This should help train my eye to perceive differences in spacings and sizes.
+The designs are in JPG static format. This means that I'll need to use my best judgment for styles such as  `font-size`,  `padding`  and  `margin`. This should help train my eyes to perceive differences in spacings and sizes.
 
 Users should be able to:
 

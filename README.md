@@ -10,7 +10,7 @@
 
 > Desktop design
 
-![Desktop design](./design/desktop-design-jpg)
+![Desktop design](./design/desktop-design.jpg)
 
 > Mobile design
 
